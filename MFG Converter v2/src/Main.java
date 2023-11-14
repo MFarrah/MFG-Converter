@@ -10,12 +10,12 @@ public class Main {
         //String-Array met valuta benamingen + een double-Array met conversie ratios
                 String[] currencies = {"Euro", "US Dollar", "GB Pond", "Bitcoin", "Ethereum", "Solana"};
                 double[][] conversionRates = {
-                {0.85, 0.86, 0.000025, 0.035, 15.88}, // EUR
-                {0.85, 0.73, 0.000021, 0.03, 13.5}, // USD
-                {0.86, 1.37, 0.000032, 0.044, 20.76}, // GBP
-                {54000, 62000, 31000, 22, 1050000}, // BTC
-                {3500, 4000, 3000, 0.05, 500}, // ETH
-                {35, 40, 30, 0.000037, 0.2} // SOL
+                        {1.18, 0.85, 0.86, 0.000025, 0.035, 15.88}, // EUR
+                        {0.85, 1.0, 0.73, 0.000021, 0.03, 13.5}, // USD
+                        {0.86, 1.37, 1.0, 0.000032, 0.044, 20.76}, // GBP
+                        {54000, 62000, 31000, 1.0, 22, 1050000}, // BTC
+                        {3500, 4000, 3000, 0.05, 1.0, 500}, // ETH
+                        {35, 40, 30, 0.000037, 0.2, 1.0} // SOL
         };
 
             //vraag : Welke valuta wilt u omrekenen ?
