@@ -107,6 +107,8 @@ public class Main {
 
             }
         }
+//Hier zal de calculatie gemaakt worden en de uitkomst geprint worden
+        
                 double convertedAmount = (chosenAmount * chosenConversionrates[0]) / chosenConversionrates2[0];
                 System.out.println("userChoice = " + convertedAmount);
     }
