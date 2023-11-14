@@ -53,7 +53,7 @@ public class Main {
 
             }
             if (userChoice == currencies.length) {
-                double[] chosenConversionRates = conversionRates[userChoice-1];
+                chosenConversionRates = conversionRates[userChoice-1];
                 userInput.nextInt();
                 break;
             }
@@ -80,7 +80,7 @@ public class Main {
 
                 }
                 if (userChoice == currencies.length) {
-                    double[] chosenConversionRates2 = conversionRates[userChoice - 1];
+                    chosenConversionRates2 = conversionRates[userChoice - 1];
                     userInput.nextInt();
                     break;
                 }
