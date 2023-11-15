@@ -19,8 +19,8 @@ public class Main {
         };
 
         double chosenAmount = 0.0;
-        double[] chosenConversionrates = null;
-        double[] chosenConversionrates2 = null;
+        double[] chosenConversionRates = null;
+        double[] chosenConversionRates2 = null;
 
         //vraag : Welke valuta wilt u omrekenen ?
 
@@ -107,9 +107,7 @@ public class Main {
 
             }
         }
-//Hier zal de calculatie gemaakt worden en de uitkomst geprint worden
-        
-                double convertedAmount = (chosenAmount * chosenConversionrates[0]) / chosenConversionrates2[0];
+                double convertedAmount = (chosenAmount * chosenConversionRates[0]) / chosenConversionRates2[0];
                 System.out.println("userChoice = " + convertedAmount);
     }
 }
